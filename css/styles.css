@@ -1,0 +1,164 @@
+nav {
+  height: 90px;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo {
+  width: 92px;
+  height: 42;
+  z-index: 2;
+}
+nav .links {
+  height: 42px;
+  width: 350px;
+  color: black;
+  z-index: 2;
+}
+nav .links a {
+  text-decoration: none;
+  color: black;
+}
+
+.about-box {
+  height: 200px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.about-box .about {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 60px;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+.client-quotes {
+  max-height: 500px;
+  width: 70%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+}
+.client-quotes img {
+  max-height: 200px;
+  width: 360px;
+  padding-right: 10%;
+}
+.client-quotes .client-1,
+.client-quotes .client-2 {
+  display: flex;
+  justify-content: center;
+  margin-left: 15%;
+}
+.client-quotes h6 {
+  color: #79ADDC;
+  font-size: 15px;
+  margin-left: 85%;
+}
+
+.cq-main {
+  font-size: 35px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 800px) {
+  .client-quotes {
+    max-height: 500px;
+    width: 95%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+  .client-quotes img {
+    max-height: 130px;
+    width: 250px;
+    padding-right: 10%;
+  }
+  .client-quotes .client-1,
+.client-quotes .client-2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+  }
+  .client-quotes h6 {
+    color: #79ADDC;
+    font-size: 15px;
+    margin-left: 85%;
+  }
+
+  .cq-main {
+    font-size: 35px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-left: 10%;
+    margin-top: 25%;
+    margin-bottom: 5%;
+  }
+}
+.footer-nav {
+  height: 90px;
+  max-width: 100%;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-nav .footer-logo {
+  width: 92px;
+  height: 42;
+}
+.footer-nav .copyright {
+  color: white;
+}
+.footer-nav .links {
+  height: 42px;
+  width: 100px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-nav .links .logo-img {
+  height: 20px;
+  width: 20px;
+  color: white;
+}
+.footer-nav .links a {
+  text-decoration: none;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
